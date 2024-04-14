@@ -1,6 +1,6 @@
 # This is a sample Dockerfile you can modify to deploy your own app based on face_recognition
 
-FROM python:3.12.0rc1-slim
+FROM python:3.13.0a6-slim
 
 RUN apt-get -y update
 RUN apt-get install -y --fix-missing \
