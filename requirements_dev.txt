@@ -13,3 +13,4 @@ Click>=6.0
 dlib>=19.3.0
 numpy
 scipy
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
